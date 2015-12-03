@@ -1,6 +1,6 @@
 +++
 Description = ""
-Tags = ["Development", "golang"]
-Categories = ["Development", "GoLang"]
+Tags = ["Update"]
+Categories = ["Continuation"]
 menu = "main"
 +++
