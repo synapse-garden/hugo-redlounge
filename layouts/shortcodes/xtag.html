@@ -1,0 +1,2 @@
+<x-{{ if .IsNamedParams }}{{ .Get "name" }} {{ if isset .Params "params" }}{{ .Get "params" }}></x-{{ .Get "name" }}>
+{{ else }}{{ .Get 0 }}{{ if isset .Params 1 }}{{ .Get 1 }} ></x-{{ .Get 0 }}>
