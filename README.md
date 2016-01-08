@@ -1,6 +1,14 @@
 Red Lounge
 ===========
 
+## Xtags and Dart scripts
+
+Xtags should go in `/static/script/xtags/`.  They can be enabled for a
+page by setting the `xtags` Param for the page to the name of the .js file
+defining the xtags required for the page.
+
+---
+
 This is an open-source Hugo theme designed by [@shift8creative](http://www.twitter.com/shift8creative) to be responsive and clean. It uses Pure.css and contains a few web fonts from Google as well as Font Awesome icons. 
 So despite it being simple, it has a lot of flexibility in terms of typography and design elements. It's also quite configurable as it has a few variables to change the
 appearance and features of the pages. By default, excess features (and JavaScript) is not included.
