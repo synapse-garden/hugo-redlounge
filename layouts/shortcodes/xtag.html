@@ -1,2 +1,1 @@
-<x-{{ if .IsNamedParams }}{{ .Get "name" }} {{ if isset .Params "params" }}{{ .Get "params" }}></x-{{ .Get "name" }}>
-{{ else }}{{ .Get 0 }}{{ if isset .Params 1 }}{{ .Get 1 }} ></x-{{ .Get 0 }}>
+{{ (printf "<x-%s></x-%s>" (.Get 0) (.Get 0)) | safeHTML }}
